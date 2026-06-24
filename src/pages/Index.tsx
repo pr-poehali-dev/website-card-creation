@@ -45,7 +45,7 @@ const Index = () => {
               Бесплатный подбор
             </div>
             <h1 className="mt-6 font-display text-5xl sm:text-6xl font-semibold leading-[0.95]">
-              Ваше идеальное жильё <span className="italic text-[hsl(var(--estate))]">здесь</span>
+              Шаг навстречу <span className="italic text-[hsl(var(--estate))]">светлому горизонту</span>
             </h1>
             <p className="mt-4 text-base leading-relaxed text-black/55 max-w-md">
               Сервис бесплатного поиска недвижимости. Наша миссия — лучший выбор жилья по самым выгодным ценам и полный спектр финансовых решений для частных лиц и предпринимателей.
