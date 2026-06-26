@@ -139,6 +139,31 @@ const Index = () => {
           </footer>
         </article>
 
+        {/* Блок — о компании */}
+        <article className="relative overflow-hidden rounded-[28px] bg-white border border-black/5 shadow-[0_8px_40px_-16px_rgba(0,0,0,0.12)] px-8 py-9 sm:px-12">
+          <div className="absolute -top-16 -right-16 h-48 w-48 rounded-full bg-[hsl(var(--estate))]/8 blur-2xl" />
+          <div className="relative">
+            <div className="inline-flex items-center gap-2 rounded-full bg-[hsl(var(--estate))]/12 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.15em] text-[hsl(var(--estate))] mb-5">
+              <Icon name="Building2" size={14} />
+              О компании
+            </div>
+            <h2 className="font-display text-3xl sm:text-4xl font-semibold leading-tight mb-5">
+              Дом Мечты — <span className="italic text-[hsl(var(--estate))]">ваш надёжный партнёр</span>
+            </h2>
+            <p className="text-[15px] leading-relaxed text-black/65 mb-4">
+              Мы — динамично развивающаяся организация, работающая на рынке услуг по подбору недвижимости с 2025 года. За это время мы успешно реализовали множество проектов разного масштаба и уровня сложности.
+            </p>
+            <p className="text-[15px] leading-relaxed text-black/65 mb-6">
+              Образование компании стало логическим продолжением успешного завершения финансовых сделок группой специалистов, составивших основу нашей профессиональной деятельности.
+            </p>
+            <div className="rounded-2xl bg-[#FAF8F4] border border-black/5 px-6 py-5">
+              <p className="text-[15px] leading-relaxed text-black/70">
+                Компания <span className="font-semibold text-[hsl(var(--estate-ink))]">«Дом Мечты»</span> — это команда, поставившая своей целью решать все возникающие вопросы, связанные с приобретением недвижимости. Мы готовы помочь вам принять верное решение и подобрать наилучшие условия именно для вас.
+              </p>
+            </div>
+          </div>
+        </article>
+
         {/* Блок 1 — что такое гармония */}
         <article className="relative overflow-hidden rounded-[28px] bg-white border border-black/5 shadow-[0_8px_40px_-16px_rgba(0,0,0,0.12)] px-8 py-9 sm:px-12">
           <div className="absolute -bottom-16 -left-16 h-48 w-48 rounded-full bg-[hsl(var(--estate))]/8 blur-2xl" />
